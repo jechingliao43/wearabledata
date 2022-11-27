@@ -1,0 +1,31 @@
+---
+title: "run_an_codebook"
+author: "jcl"
+date: "2022-11-26"
+output: html_document
+---
+
+## 
+
+::: {align="center"}
+DATA DICTIONARY - SAMSUNG ACCELEROMETER & GYROSCOPE
+:::
+
+-   participant_id
+    -   The ID for each of the 30 participant of the experiments.
+        -   NUMERIC: `1` - `30`
+-   activity_id
+    -   The ID for each of the 6 activities performed.
+        -   NUMERIC: `1` - `6`
+-   activity_label
+    -   The labels corresponding to the value of `activity_id`.
+        -   CHARACTER:
+        -   `WALKING`: corresponding to `activity_id` value `1`
+        -   `WALKING_UPSTAIRS`: corresponding to `activity_id` value `2`
+        -   `WALKING_DOWNSTAIRS`: corresponding to `activity_id` value `3`
+        -   `SITTING`: corresponding to `activity_id` value `4`
+        -   `STANDING`: corresponding to `activity_id` value `5`
+        -   `LAYING`: corresponding to `activity_id` value `6`
+-   mean\_(variable)
+    -   The mean of the mean and standard deviation variables from the original variables of `features.txt`.
+        -   NUMERIC: between `-1` and `1`
